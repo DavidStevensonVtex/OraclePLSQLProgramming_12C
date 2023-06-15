@@ -1,0 +1,1933 @@
+SYSTEM@orclinst > describe sys.standard
+FUNCTION  SYS$DSINTERVALSUBTRACT RETURNS INTERVAL DAY TO SECOND
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIMESTAMP               IN    
+ RIGHT                          TIMESTAMP               IN    
+FUNCTION  SYS$DSINTERVALSUBTRACT RETURNS INTERVAL DAY TO SECOND
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIMESTAMP WITH TIME ZONE IN    
+ RIGHT                          TIMESTAMP WITH TIME ZONE IN    
+FUNCTION  SYS$DSINTERVALSUBTRACT RETURNS INTERVAL DAY TO SECOND
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIME                    IN    
+ RIGHT                          TIME                    IN    
+FUNCTION  SYS$DSINTERVALSUBTRACT RETURNS INTERVAL DAY TO SECOND
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIME WITH TIME ZONE     IN    
+ RIGHT                          TIME WITH TIME ZONE     IN    
+FUNCTION  SYS$DSINTERVALSUBTRACT RETURNS INTERVAL DAY TO SECOND
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           DATE                    IN    
+ RIGHT                          DATE                    IN    
+FUNCTION  SYS$DSINTERVALSUBTRACT RETURNS INTERVAL DAY TO SECOND
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIMESTAMP WITH LOCAL TIME ZONE IN    
+ RIGHT                          TIMESTAMP WITH LOCAL TIME ZONE IN    
+FUNCTION  SYS$EXTRACT_FROM RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ T                              TIME                    IN    
+ FIELD                          VARCHAR2                IN    
+FUNCTION  SYS$EXTRACT_FROM RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ T                              TIME WITH TIME ZONE     IN    
+ FIELD                          VARCHAR2                IN    
+FUNCTION  SYS$EXTRACT_FROM RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ T                              TIMESTAMP               IN    
+ FIELD                          VARCHAR2                IN    
+FUNCTION  SYS$EXTRACT_FROM RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ T                              TIMESTAMP WITH TIME ZONE IN    
+ FIELD                          VARCHAR2                IN    
+FUNCTION  SYS$EXTRACT_FROM RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ T                              TIMESTAMP WITH LOCAL TIME ZONE IN    
+ FIELD                          VARCHAR2                IN    
+FUNCTION  SYS$EXTRACT_FROM RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ T                              DATE                    IN    
+ FIELD                          VARCHAR2                IN    
+FUNCTION  SYS$EXTRACT_FROM RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ I                              INTERVAL YEAR TO MONTH  IN    
+ FIELD                          VARCHAR2                IN    
+FUNCTION  SYS$EXTRACT_FROM RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ I                              INTERVAL DAY TO SECOND  IN    
+ FIELD                          VARCHAR2                IN    
+FUNCTION  SYS$EXTRACT_STRING_FROM RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ T                              TIME WITH TIME ZONE     IN    
+ FIELD                          VARCHAR2                IN    
+FUNCTION  SYS$EXTRACT_STRING_FROM RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ T                              TIMESTAMP WITH TIME ZONE IN    
+ FIELD                          VARCHAR2                IN    
+FUNCTION  SYS$EXTRACT_STRING_FROM RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ T                              TIMESTAMP WITH LOCAL TIME ZONE IN    
+ FIELD                          VARCHAR2                IN    
+FUNCTION  SYS$STANDARD_CHR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER(38)              IN    
+ CSN                            VARCHAR2                IN    
+FUNCTION  SYS$STANDARD_JSON RETURNS VARCHAR2
+FUNCTION  SYS$STANDARD_TRANSLATE RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRC                            VARCHAR2                IN    
+ CSN                            VARCHAR2                IN    
+FUNCTION  SYS$STANDARD_TRIM RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ V                              VARCHAR2                IN    
+FUNCTION  SYS$STANDARD_TRIM RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ TRFLAG                         BINARY_INTEGER          IN    
+FUNCTION  SYS$STANDARD_TRIM RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ TSET                           VARCHAR2                IN    
+ TRFLAG                         BINARY_INTEGER          IN    
+FUNCTION  SYS$STANDARD_TRIM RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ V                              CLOB                    IN    
+FUNCTION  SYS$STANDARD_TRIM RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           CLOB                    IN    
+ TRFLAG                         BINARY_INTEGER          IN    
+FUNCTION  SYS$STANDARD_TRIM RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           CLOB                    IN    
+ TSET                           CLOB                    IN    
+ TRFLAG                         BINARY_INTEGER          IN    
+FUNCTION  SYS$YMINTERVALSUBTRACT RETURNS INTERVAL YEAR TO MONTH
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIMESTAMP               IN    
+ RIGHT                          TIMESTAMP               IN    
+FUNCTION  SYS$YMINTERVALSUBTRACT RETURNS INTERVAL YEAR TO MONTH
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIMESTAMP WITH TIME ZONE IN    
+ RIGHT                          TIMESTAMP WITH TIME ZONE IN    
+FUNCTION  SYS$YMINTERVALSUBTRACT RETURNS INTERVAL YEAR TO MONTH
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           DATE                    IN    
+ RIGHT                          DATE                    IN    
+FUNCTION  SYS$YMINTERVALSUBTRACT RETURNS INTERVAL YEAR TO MONTH
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIMESTAMP WITH LOCAL TIME ZONE IN    
+ RIGHT                          TIMESTAMP WITH LOCAL TIME ZONE IN    
+FUNCTION ABS RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+FUNCTION ABS RETURNS BINARY_FLOAT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ F                              BINARY_FLOAT            IN    
+FUNCTION ABS RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION ABS RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ I                              BINARY_INTEGER          IN    
+FUNCTION ACOS RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+FUNCTION ACOS RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION ADD_MONTHS RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           DATE                    IN    
+ RIGHT                          NUMBER                  IN    
+FUNCTION ADD_MONTHS RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           NUMBER                  IN    
+ RIGHT                          DATE                    IN    
+FUNCTION ASCII RETURNS NUMBER(38)
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+FUNCTION ASCIISTR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+FUNCTION ASIN RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+FUNCTION ASIN RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION ATAN RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+FUNCTION ATAN RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION ATAN2 RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ X                              NUMBER                  IN    
+ Y                              NUMBER                  IN    
+FUNCTION ATAN2 RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ X                              BINARY_DOUBLE           IN    
+ Y                              BINARY_DOUBLE           IN    
+FUNCTION BFILENAME RETURNS BINARY FILE LOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ DIRECTORY                      VARCHAR2                IN    
+ FILENAME                       VARCHAR2                IN    
+FUNCTION BITAND RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BINARY_INTEGER          IN    
+ RIGHT                          BINARY_INTEGER          IN    
+FUNCTION BITAND RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           NUMBER                  IN    
+ RIGHT                          NUMBER                  IN    
+FUNCTION CARDINALITY RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ COLLECTION                     <TABLE_1>               IN    
+FUNCTION CEIL RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+FUNCTION CEIL RETURNS BINARY_FLOAT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ F                              BINARY_FLOAT            IN    
+FUNCTION CEIL RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION CHARTOROWID RETURNS ROWID
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR                            VARCHAR2                IN    
+FUNCTION CHR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER(38)              IN    
+FUNCTION COALESCE RETURNS VARCHAR2
+PROCEDURE COMMIT
+PROCEDURE COMMIT_CM
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ VC                             VARCHAR2                IN    
+FUNCTION COMPOSE RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+FUNCTION CONCAT RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ RIGHT                          VARCHAR2                IN    
+FUNCTION CONCAT RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           CLOB                    IN    
+ RIGHT                          CLOB                    IN    
+PROCEDURE CONTINUE
+FUNCTION CONVERT RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRC                            VARCHAR2                IN    
+ DESTCSET                       VARCHAR2                IN    
+FUNCTION CONVERT RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRC                            VARCHAR2                IN    
+ DESTCSET                       VARCHAR2                IN    
+ SRCCSET                        VARCHAR2                IN    
+FUNCTION CONVERT RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRCSTR                         CLOB                    IN    
+ DSTCSN                         VARCHAR2                IN    
+FUNCTION CONVERT RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRCSTR                         CLOB                    IN    
+ DSTCSN                         VARCHAR2                IN    
+ SRCCSN                         VARCHAR2                IN    
+FUNCTION COS RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+FUNCTION COS RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION COSH RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+FUNCTION COSH RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION CUBE RETURNS NUMBER
+FUNCTION CURRENT_DATE RETURNS DATE
+FUNCTION CURRENT_TIME RETURNS TIME WITH TIME ZONE
+FUNCTION CURRENT_TIMESTAMP RETURNS TIMESTAMP WITH TIME ZONE
+FUNCTION DBTIMEZONE RETURNS VARCHAR2
+FUNCTION DECODE RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ EXPR                           NUMBER                  IN    
+ PAT                            NUMBER                  IN    
+ RES                            NUMBER                  IN    
+FUNCTION DECODE RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ EXPR                           NUMBER                  IN    
+ PAT                            NUMBER                  IN    
+ RES                            VARCHAR2                IN    
+FUNCTION DECODE RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ EXPR                           NUMBER                  IN    
+ PAT                            NUMBER                  IN    
+ RES                            DATE                    IN    
+FUNCTION DECODE RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ EXPR                           VARCHAR2                IN    
+ PAT                            VARCHAR2                IN    
+ RES                            NUMBER                  IN    
+FUNCTION DECODE RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ EXPR                           VARCHAR2                IN    
+ PAT                            VARCHAR2                IN    
+ RES                            VARCHAR2                IN    
+FUNCTION DECODE RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ EXPR                           VARCHAR2                IN    
+ PAT                            VARCHAR2                IN    
+ RES                            DATE                    IN    
+FUNCTION DECODE RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ EXPR                           DATE                    IN    
+ PAT                            DATE                    IN    
+ RES                            NUMBER                  IN    
+FUNCTION DECODE RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ EXPR                           DATE                    IN    
+ PAT                            DATE                    IN    
+ RES                            VARCHAR2                IN    
+FUNCTION DECODE RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ EXPR                           DATE                    IN    
+ PAT                            DATE                    IN    
+ RES                            DATE                    IN    
+FUNCTION DECODE RETURNS <ADT_1>
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ EXPR                           <ADT_1>                 IN    
+ PAT                            <ADT_1>                 IN    
+ RES                            <ADT_1>                 IN    
+FUNCTION DECODE RETURNS <OPAQUE_1>
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ EXPR                           <OPAQUE_1>              IN    
+ PAT                            <OPAQUE_1>              IN    
+ RES                            <OPAQUE_1>              IN    
+FUNCTION DECOMPOSE RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+ CANMODE                        VARCHAR2                IN     DEFAULT
+FUNCTION DEREF RETURNS <ADT_1>
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ R                              REF OF STANDARD         IN    
+FUNCTION DUMP RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ E                              VARCHAR2                IN    
+ DF                             BINARY_INTEGER          IN     DEFAULT
+ SP                             BINARY_INTEGER          IN     DEFAULT
+ LEN                            BINARY_INTEGER          IN     DEFAULT
+FUNCTION DUMP RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ E                              NUMBER                  IN    
+ DF                             BINARY_INTEGER          IN     DEFAULT
+ SP                             BINARY_INTEGER          IN     DEFAULT
+ LEN                            BINARY_INTEGER          IN     DEFAULT
+FUNCTION DUMP RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ E                              DATE                    IN    
+ DF                             BINARY_INTEGER          IN     DEFAULT
+ SP                             BINARY_INTEGER          IN     DEFAULT
+ LEN                            BINARY_INTEGER          IN     DEFAULT
+FUNCTION EMPTY_BLOB RETURNS BLOB
+FUNCTION EMPTY_CLOB RETURNS CLOB
+FUNCTION EXISTS RETURNS BOOLEAN
+FUNCTION EXP RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+FUNCTION EXP RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION FLOOR RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+FUNCTION FLOOR RETURNS BINARY_FLOAT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ F                              BINARY_FLOAT            IN    
+FUNCTION FLOOR RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION FROM_TZ RETURNS TIMESTAMP WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ T                              TIMESTAMP               IN    
+ TIMEZONE                       VARCHAR2                IN    
+FUNCTION GLB RETURNS RAW MLSLABEL
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LABEL                          RAW MLSLABEL            IN    
+FUNCTION GREATEST RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        NUMBER                  IN    
+FUNCTION GREATEST RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        VARCHAR2                IN    
+FUNCTION GREATEST RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        DATE                    IN    
+FUNCTION GREATEST RETURNS TIME
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        TIME                    IN    
+FUNCTION GREATEST RETURNS TIME WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        TIME WITH TIME ZONE     IN    
+FUNCTION GREATEST RETURNS TIMESTAMP
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        TIMESTAMP               IN    
+FUNCTION GREATEST RETURNS TIMESTAMP WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        TIMESTAMP WITH TIME ZONE IN    
+FUNCTION GREATEST RETURNS TIMESTAMP WITH LOCAL TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        TIMESTAMP WITH LOCAL TIME ZONE IN    
+FUNCTION GREATEST RETURNS INTERVAL YEAR TO MONTH
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        INTERVAL YEAR TO MONTH  IN    
+FUNCTION GREATEST RETURNS INTERVAL DAY TO SECOND
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        INTERVAL DAY TO SECOND  IN    
+FUNCTION GREATEST RETURNS BINARY_FLOAT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        BINARY_FLOAT            IN    
+FUNCTION GREATEST RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        BINARY_DOUBLE           IN    
+FUNCTION GREATEST RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        BINARY_INTEGER          IN    
+FUNCTION GREATEST_LB RETURNS RAW MLSLABEL
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        RAW MLSLABEL            IN    
+FUNCTION GROUPING RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ V                              VARCHAR2                IN    
+FUNCTION GROUPING RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ A                              <ADT_1>                 IN    
+FUNCTION GROUPING RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ A                              <OPAQUE_1>              IN    
+FUNCTION HEXTORAW RETURNS RAW
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ C                              VARCHAR2                IN    
+FUNCTION INITCAP RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+FUNCTION INSTR RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ STR2                           VARCHAR2                IN    
+ POS                            BINARY_INTEGER          IN     DEFAULT
+ NTH                            BINARY_INTEGER          IN     DEFAULT
+FUNCTION INSTR RETURNS NUMBER(38)
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           CLOB                    IN    
+ STR2                           CLOB                    IN    
+ POS                            NUMBER(38)              IN     DEFAULT
+ NTH                            NUMBER(38)              IN     DEFAULT
+FUNCTION INSTR2 RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ STR2                           VARCHAR2                IN    
+ POS                            BINARY_INTEGER          IN     DEFAULT
+ NTH                            BINARY_INTEGER          IN     DEFAULT
+FUNCTION INSTR4 RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ STR2                           VARCHAR2                IN    
+ POS                            BINARY_INTEGER          IN     DEFAULT
+ NTH                            BINARY_INTEGER          IN     DEFAULT
+FUNCTION INSTRB RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ STR2                           VARCHAR2                IN    
+ POS                            BINARY_INTEGER          IN     DEFAULT
+ NTH                            BINARY_INTEGER          IN     DEFAULT
+FUNCTION INSTRB RETURNS NUMBER(38)
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           CLOB                    IN    
+ STR2                           CLOB                    IN    
+ POS                            NUMBER(38)              IN     DEFAULT
+ NTH                            NUMBER(38)              IN     DEFAULT
+FUNCTION INSTRC RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ STR2                           VARCHAR2                IN    
+ POS                            BINARY_INTEGER          IN     DEFAULT
+ NTH                            BINARY_INTEGER          IN     DEFAULT
+FUNCTION ISNCHAR RETURNS BOOLEAN
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ C                              VARCHAR2                IN    
+FUNCTION IS_JSON RETURNS VARCHAR2
+FUNCTION IS_NOT_JSON RETURNS VARCHAR2
+FUNCTION JSON_ARRAY RETURNS VARCHAR2
+FUNCTION JSON_EXISTS RETURNS VARCHAR2
+FUNCTION JSON_OBJECT RETURNS VARCHAR2
+FUNCTION JSON_QUERY RETURNS VARCHAR2
+FUNCTION JSON_VALUE RETURNS VARCHAR2
+FUNCTION LAST_DAY RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          DATE                    IN    
+FUNCTION LEAST RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        NUMBER                  IN    
+FUNCTION LEAST RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        VARCHAR2                IN    
+FUNCTION LEAST RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        DATE                    IN    
+FUNCTION LEAST RETURNS TIME
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        TIME                    IN    
+FUNCTION LEAST RETURNS TIME WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        TIME WITH TIME ZONE     IN    
+FUNCTION LEAST RETURNS TIMESTAMP
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        TIMESTAMP               IN    
+FUNCTION LEAST RETURNS TIMESTAMP WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        TIMESTAMP WITH TIME ZONE IN    
+FUNCTION LEAST RETURNS TIMESTAMP WITH LOCAL TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        TIMESTAMP WITH LOCAL TIME ZONE IN    
+FUNCTION LEAST RETURNS INTERVAL YEAR TO MONTH
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        INTERVAL YEAR TO MONTH  IN    
+FUNCTION LEAST RETURNS INTERVAL DAY TO SECOND
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        INTERVAL DAY TO SECOND  IN    
+FUNCTION LEAST RETURNS BINARY_FLOAT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        BINARY_FLOAT            IN    
+FUNCTION LEAST RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        BINARY_DOUBLE           IN    
+FUNCTION LEAST RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        BINARY_INTEGER          IN    
+FUNCTION LEAST_UB RETURNS RAW MLSLABEL
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ PATTERN                        RAW MLSLABEL            IN    
+FUNCTION LENGTH RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+FUNCTION LENGTH RETURNS NUMBER(38)
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             CLOB                    IN    
+FUNCTION LENGTH RETURNS NUMBER(38)
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ BL                             BLOB                    IN    
+FUNCTION LENGTH2 RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+FUNCTION LENGTH4 RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+FUNCTION LENGTHB RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+FUNCTION LENGTHB RETURNS NUMBER(38)
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             CLOB                    IN    
+FUNCTION LENGTHB RETURNS NUMBER(38)
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ BL                             BLOB                    IN    
+FUNCTION LENGTHC RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+FUNCTION LEVEL RETURNS NUMBER
+FUNCTION LN RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+FUNCTION LN RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION LOCALTIME RETURNS TIME
+FUNCTION LOCALTIMESTAMP RETURNS TIMESTAMP
+FUNCTION LOG RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           NUMBER                  IN    
+ RIGHT                          NUMBER                  IN    
+FUNCTION LOG RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BINARY_DOUBLE           IN    
+ RIGHT                          BINARY_DOUBLE           IN    
+FUNCTION LOWER RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+FUNCTION LOWER RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             CLOB                    IN    
+FUNCTION LPAD RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ LEN                            BINARY_INTEGER          IN    
+ PAD                            VARCHAR2                IN    
+FUNCTION LPAD RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ LEN                            BINARY_INTEGER          IN    
+FUNCTION LPAD RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           CLOB                    IN    
+ LEN                            NUMBER(38)              IN    
+ PAD                            CLOB                    IN    
+FUNCTION LPAD RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           CLOB                    IN    
+ LEN                            NUMBER(38)              IN    
+FUNCTION LTRIM RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN     DEFAULT
+ TSET                           VARCHAR2                IN    
+FUNCTION LTRIM RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN     DEFAULT
+FUNCTION LTRIM RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           CLOB                    IN    
+ TSET                           CLOB                    IN    
+FUNCTION LTRIM RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           CLOB                    IN    
+FUNCTION LUB RETURNS RAW MLSLABEL
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LABEL                          RAW MLSLABEL            IN    
+FUNCTION MONTHS_BETWEEN RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           DATE                    IN    
+ RIGHT                          DATE                    IN    
+FUNCTION NANVL RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N1                             NUMBER                  IN    
+ N2                             NUMBER                  IN    
+FUNCTION NANVL RETURNS BINARY_FLOAT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ F1                             BINARY_FLOAT            IN    
+ F2                             BINARY_FLOAT            IN    
+FUNCTION NANVL RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D1                             BINARY_DOUBLE           IN    
+ D2                             BINARY_DOUBLE           IN    
+FUNCTION NCHARTOROWID RETURNS ROWID
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR                            NVARCHAR2               IN    
+FUNCTION NCHR RETURNS NVARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER(38)              IN    
+FUNCTION NEW_TIME RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          DATE                    IN    
+ MIDDLE                         VARCHAR2                IN    
+ LEFT                           VARCHAR2                IN    
+FUNCTION NEXT_DAY RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           DATE                    IN    
+ RIGHT                          VARCHAR2                IN    
+FUNCTION NHEXTORAW RETURNS RAW
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ C                              NVARCHAR2               IN    
+FUNCTION NLSSORT RETURNS RAW
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ C                              VARCHAR2                IN    
+FUNCTION NLSSORT RETURNS RAW
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ C                              VARCHAR2                IN    
+ C2                             VARCHAR2                IN    
+FUNCTION NLS_CHARSET_DECL_LEN RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ BYTECNT                        NUMBER                  IN    
+ CSETID                         NUMBER                  IN    
+FUNCTION NLS_CHARSET_ID RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CSETNAME                       VARCHAR2                IN    
+FUNCTION NLS_CHARSET_NAME RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CSETID                         BINARY_INTEGER          IN    
+FUNCTION NLS_INITCAP RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION NLS_INITCAP RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+FUNCTION NLS_LOWER RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION NLS_LOWER RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+FUNCTION NLS_LOWER RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             CLOB                    IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION NLS_LOWER RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             CLOB                    IN    
+FUNCTION NLS_UPPER RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION NLS_UPPER RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+FUNCTION NLS_UPPER RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             CLOB                    IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION NLS_UPPER RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             CLOB                    IN    
+FUNCTION NULLFN RETURNS RAW
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR                            VARCHAR2                IN    
+FUNCTION NULLIF RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ V1                             VARCHAR2                IN    
+ V2                             VARCHAR2                IN    
+FUNCTION NULLIF RETURNS BOOLEAN
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ V1                             BOOLEAN                 IN    
+ V2                             BOOLEAN                 IN    
+FUNCTION NULLIF RETURNS <ADT_1>
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ A1                             <ADT_1>                 IN    
+ A2                             <ADT_1>                 IN    
+FUNCTION NULLIF RETURNS <OPAQUE_1>
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ A1                             <OPAQUE_1>              IN    
+ A2                             <OPAQUE_1>              IN    
+FUNCTION NUMTODSINTERVAL RETURNS INTERVAL DAY TO SECOND
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ NUMERATOR                      NUMBER                  IN    
+ UNITS                          VARCHAR2                IN    
+FUNCTION NUMTOYMINTERVAL RETURNS INTERVAL YEAR TO MONTH
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ NUMERATOR                      NUMBER                  IN    
+ UNITS                          VARCHAR2                IN    
+FUNCTION NVL RETURNS BOOLEAN
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ B1                             BOOLEAN                 IN    
+ B2                             BOOLEAN                 IN    
+FUNCTION NVL RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ S1                             VARCHAR2                IN    
+ S2                             VARCHAR2                IN    
+FUNCTION NVL RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N1                             NUMBER                  IN    
+ N2                             NUMBER                  IN    
+FUNCTION NVL RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D1                             DATE                    IN    
+ D2                             DATE                    IN    
+FUNCTION NVL RETURNS RAW MLSLABEL
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LABEL1                         RAW MLSLABEL            IN    
+ LABEL2                         RAW MLSLABEL            IN    
+FUNCTION NVL RETURNS <ADT_1>
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ B1                             <ADT_1>                 IN    
+ B2                             <ADT_1>                 IN    
+FUNCTION NVL RETURNS REF OF STANDARD
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ B1                             REF OF STANDARD         IN    
+ B2                             REF OF STANDARD         IN    
+FUNCTION NVL RETURNS <COLLECTION_1>
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ B1                             <COLLECTION_1>          IN    
+ B2                             <COLLECTION_1>          IN    
+FUNCTION NVL RETURNS REF CURSOR
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ B1                             REF CURSOR              IN    
+ B2                             REF CURSOR              IN    
+FUNCTION NVL RETURNS <ASSOC_ARRAY_1>
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ B1                             <ASSOC_ARRAY_1>         IN    
+ B2                             <ASSOC_ARRAY_1>         IN    
+FUNCTION NVL RETURNS TIME
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ B1                             TIME                    IN    
+ B2                             TIME                    IN    
+FUNCTION NVL RETURNS TIME WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ B1                             TIME WITH TIME ZONE     IN    
+ B2                             TIME WITH TIME ZONE     IN    
+FUNCTION NVL RETURNS TIMESTAMP
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ B1                             TIMESTAMP               IN    
+ B2                             TIMESTAMP               IN    
+FUNCTION NVL RETURNS TIMESTAMP WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ B1                             TIMESTAMP WITH TIME ZONE IN    
+ B2                             TIMESTAMP WITH TIME ZONE IN    
+FUNCTION NVL RETURNS TIMESTAMP WITH LOCAL TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ B1                             TIMESTAMP WITH LOCAL TIME ZONE IN    
+ B2                             TIMESTAMP WITH LOCAL TIME ZONE IN    
+FUNCTION NVL RETURNS INTERVAL YEAR TO MONTH
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ B1                             INTERVAL YEAR TO MONTH  IN    
+ B2                             INTERVAL YEAR TO MONTH  IN    
+FUNCTION NVL RETURNS INTERVAL DAY TO SECOND
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ B1                             INTERVAL DAY TO SECOND  IN    
+ B2                             INTERVAL DAY TO SECOND  IN    
+FUNCTION NVL RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ S1                             CLOB                    IN    
+ S2                             CLOB                    IN    
+FUNCTION NVL RETURNS <OPAQUE_1>
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ B1                             <OPAQUE_1>              IN    
+ B2                             <OPAQUE_1>              IN    
+FUNCTION NVL RETURNS BINARY_FLOAT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ F1                             BINARY_FLOAT            IN    
+ F2                             BINARY_FLOAT            IN    
+FUNCTION NVL RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D1                             BINARY_DOUBLE           IN    
+ D2                             BINARY_DOUBLE           IN    
+FUNCTION NVL RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ I1                             BINARY_INTEGER          IN    
+ I2                             BINARY_INTEGER          IN    
+FUNCTION POWER RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+ E                              NUMBER                  IN    
+FUNCTION POWER RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+ E                              BINARY_DOUBLE           IN    
+FUNCTION RAWTOHEX RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ R                              RAW                     IN    
+FUNCTION RAWTONHEX RETURNS NVARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ R                              RAW                     IN    
+FUNCTION REF RETURNS REF OF STANDARD
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ ITEM                           <TYPED_TABLE>           IN    
+FUNCTION REGEXP_COUNT RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRCSTR                         VARCHAR2                IN    
+ PATTERN                        VARCHAR2                IN    
+ POSITION                       BINARY_INTEGER          IN     DEFAULT
+ MODIFIER                       VARCHAR2                IN     DEFAULT
+FUNCTION REGEXP_COUNT RETURNS NUMBER(38)
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRCSTR                         CLOB                    IN    
+ PATTERN                        VARCHAR2                IN    
+ POSITION                       NUMBER(38)              IN     DEFAULT
+ MODIFIER                       VARCHAR2                IN     DEFAULT
+FUNCTION REGEXP_INSTR RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRCSTR                         VARCHAR2                IN    
+ PATTERN                        VARCHAR2                IN    
+ POSITION                       BINARY_INTEGER          IN     DEFAULT
+ OCCURRENCE                     BINARY_INTEGER          IN     DEFAULT
+ RETURNPARAM                    BINARY_INTEGER          IN     DEFAULT
+ MODIFIER                       VARCHAR2                IN     DEFAULT
+ SUBEXPRESSION                  BINARY_INTEGER          IN     DEFAULT
+FUNCTION REGEXP_INSTR RETURNS NUMBER(38)
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRCSTR                         CLOB                    IN    
+ PATTERN                        VARCHAR2                IN    
+ POSITION                       NUMBER(38)              IN     DEFAULT
+ OCCURRENCE                     NUMBER(38)              IN     DEFAULT
+ RETURNPARAM                    BINARY_INTEGER          IN     DEFAULT
+ MODIFIER                       VARCHAR2                IN     DEFAULT
+ SUBEXPRESSION                  BINARY_INTEGER          IN     DEFAULT
+FUNCTION REGEXP_LIKE RETURNS BOOLEAN
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRCSTR                         VARCHAR2                IN    
+ PATTERN                        VARCHAR2                IN    
+ MODIFIER                       VARCHAR2                IN     DEFAULT
+FUNCTION REGEXP_LIKE RETURNS BOOLEAN
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRCSTR                         CLOB                    IN    
+ PATTERN                        VARCHAR2                IN    
+ MODIFIER                       VARCHAR2                IN     DEFAULT
+FUNCTION REGEXP_REPLACE RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRCSTR                         VARCHAR2                IN    
+ PATTERN                        VARCHAR2                IN    
+ REPLACESTR                     VARCHAR2                IN     DEFAULT
+ POSITION                       BINARY_INTEGER          IN     DEFAULT
+ OCCURRENCE                     BINARY_INTEGER          IN     DEFAULT
+ MODIFIER                       VARCHAR2                IN     DEFAULT
+FUNCTION REGEXP_REPLACE RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRCSTR                         CLOB                    IN    
+ PATTERN                        VARCHAR2                IN    
+ REPLACESTR                     CLOB                    IN     DEFAULT
+ POSITION                       NUMBER(38)              IN     DEFAULT
+ OCCURRENCE                     NUMBER(38)              IN     DEFAULT
+ MODIFIER                       VARCHAR2                IN     DEFAULT
+FUNCTION REGEXP_REPLACE RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRCSTR                         CLOB                    IN    
+ PATTERN                        VARCHAR2                IN    
+ REPLACESTR                     VARCHAR2                IN     DEFAULT
+ POSITION                       NUMBER(38)              IN     DEFAULT
+ OCCURRENCE                     NUMBER(38)              IN     DEFAULT
+ MODIFIER                       VARCHAR2                IN     DEFAULT
+FUNCTION REGEXP_SUBSTR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRCSTR                         VARCHAR2                IN    
+ PATTERN                        VARCHAR2                IN    
+ POSITION                       BINARY_INTEGER          IN     DEFAULT
+ OCCURRENCE                     BINARY_INTEGER          IN     DEFAULT
+ MODIFIER                       VARCHAR2                IN     DEFAULT
+ SUBEXPRESSION                  BINARY_INTEGER          IN     DEFAULT
+FUNCTION REGEXP_SUBSTR RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRCSTR                         CLOB                    IN    
+ PATTERN                        VARCHAR2                IN    
+ POSITION                       NUMBER(38)              IN     DEFAULT
+ OCCURRENCE                     NUMBER(38)              IN     DEFAULT
+ MODIFIER                       VARCHAR2                IN     DEFAULT
+ SUBEXPRESSION                  BINARY_INTEGER          IN     DEFAULT
+FUNCTION REMAINDER RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N1                             NUMBER                  IN    
+ N2                             NUMBER                  IN    
+FUNCTION REMAINDER RETURNS BINARY_FLOAT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ F1                             BINARY_FLOAT            IN    
+ F2                             BINARY_FLOAT            IN    
+FUNCTION REMAINDER RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D1                             BINARY_DOUBLE           IN    
+ D2                             BINARY_DOUBLE           IN    
+FUNCTION REPLACE RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRCSTR                         VARCHAR2                IN    
+ OLDSUB                         VARCHAR2                IN    
+ NEWSUB                         VARCHAR2                IN     DEFAULT
+FUNCTION REPLACE RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SRCSTR                         CLOB                    IN    
+ OLDSUB                         CLOB                    IN    
+ NEWSUB                         CLOB                    IN     DEFAULT
+PROCEDURE ROLLBACK_NR
+PROCEDURE ROLLBACK_SV
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SAVE_POINT                     CHAR                    IN    
+FUNCTION ROLLUP RETURNS NUMBER
+FUNCTION ROUND RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           NUMBER                  IN    
+ RIGHT                          BINARY_INTEGER          IN     DEFAULT
+FUNCTION ROUND RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          DATE                    IN    
+FUNCTION ROUND RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           DATE                    IN    
+ RIGHT                          VARCHAR2                IN    
+FUNCTION ROUND RETURNS BINARY_FLOAT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BINARY_FLOAT            IN    
+FUNCTION ROUND RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BINARY_DOUBLE           IN    
+FUNCTION ROUND RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ I                              BINARY_INTEGER          IN    
+ PLACES                         BINARY_INTEGER          IN     DEFAULT
+FUNCTION ROUND_TIES_TO_EVEN RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+ PLACES                         BINARY_INTEGER          IN     DEFAULT
+FUNCTION ROWID  RETURNS ROWID
+FUNCTION ROWIDTOCHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR                            ROWID                   IN    
+FUNCTION ROWIDTONCHAR RETURNS NVARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR                            ROWID                   IN    
+FUNCTION ROWLABEL RETURNS RAW MLSLABEL
+FUNCTION ROWNUM RETURNS NUMBER
+FUNCTION RPAD RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ LEN                            BINARY_INTEGER          IN    
+ PAD                            VARCHAR2                IN    
+FUNCTION RPAD RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ LEN                            BINARY_INTEGER          IN    
+FUNCTION RPAD RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           CLOB                    IN    
+ LEN                            NUMBER(38)              IN    
+ PAD                            CLOB                    IN    
+FUNCTION RPAD RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           CLOB                    IN    
+ LEN                            NUMBER(38)              IN    
+FUNCTION RTRIM RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN     DEFAULT
+ TSET                           VARCHAR2                IN    
+FUNCTION RTRIM RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN     DEFAULT
+FUNCTION RTRIM RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           CLOB                    IN    
+ TSET                           CLOB                    IN    
+FUNCTION RTRIM RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           CLOB                    IN    
+PROCEDURE SAVEPOINT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ SAVE_POINT                     CHAR                    IN    
+FUNCTION SESSIONTIMEZONE RETURNS VARCHAR2
+FUNCTION SET RETURNS <TABLE_1>
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ COLLECTION                     <TABLE_1>               IN    
+PROCEDURE SET_TRANSACTION_USE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ VC                             VARCHAR2                IN    
+FUNCTION SIGN RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+FUNCTION SIGN RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ F                              BINARY_FLOAT            IN    
+FUNCTION SIGN RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION SIGN RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ I                              BINARY_INTEGER          IN    
+FUNCTION SIN RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+FUNCTION SIN RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION SINH RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+FUNCTION SINH RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION SOUNDEX RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+FUNCTION SQLCODE RETURNS BINARY_INTEGER
+FUNCTION SQLERRM RETURNS VARCHAR2
+FUNCTION SQLERRM RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CODE                           BINARY_INTEGER          IN    
+FUNCTION SQRT RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+FUNCTION SQRT RETURNS BINARY_FLOAT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ F                              BINARY_FLOAT            IN    
+FUNCTION SQRT RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION SUBSTR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ POS                            BINARY_INTEGER          IN    
+ LEN                            BINARY_INTEGER          IN     DEFAULT
+FUNCTION SUBSTR RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           CLOB                    IN    
+ POS                            NUMBER(38)              IN    
+ LEN                            NUMBER(38)              IN     DEFAULT
+FUNCTION SUBSTR2 RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ POS                            BINARY_INTEGER          IN    
+ LEN                            BINARY_INTEGER          IN     DEFAULT
+FUNCTION SUBSTR4 RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ POS                            BINARY_INTEGER          IN    
+ LEN                            BINARY_INTEGER          IN     DEFAULT
+FUNCTION SUBSTRB RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ POS                            BINARY_INTEGER          IN    
+ LEN                            BINARY_INTEGER          IN     DEFAULT
+FUNCTION SUBSTRB RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           CLOB                    IN    
+ POS                            NUMBER(38)              IN    
+ LEN                            NUMBER(38)              IN     DEFAULT
+FUNCTION SUBSTRC RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ POS                            BINARY_INTEGER          IN    
+ LEN                            BINARY_INTEGER          IN     DEFAULT
+FUNCTION SYS$LOB_REPLICATION RETURNS BLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ X                              BLOB                    IN    
+FUNCTION SYS$LOB_REPLICATION RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ X                              CLOB                    IN    
+FUNCTION SYSDATE RETURNS DATE
+FUNCTION SYSTIMESTAMP RETURNS TIMESTAMP WITH TIME ZONE
+FUNCTION SYS_AT_TIME_ZONE RETURNS TIME WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ T                              TIME WITH TIME ZONE     IN    
+ I                              VARCHAR2                IN    
+FUNCTION SYS_AT_TIME_ZONE RETURNS TIMESTAMP WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ T                              TIMESTAMP WITH TIME ZONE IN    
+ I                              VARCHAR2                IN    
+FUNCTION SYS_CONTEXT RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ NAMESPACE                      VARCHAR2                IN    
+ ATTRIBUTE                      VARCHAR2                IN    
+FUNCTION SYS_CONTEXT RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ NAMESPACE                      VARCHAR2                IN    
+ ATTRIBUTE                      VARCHAR2                IN    
+ NEWOPTIONAL                    VARCHAR2                IN    
+FUNCTION SYS_EXTRACT_UTC RETURNS TIMESTAMP
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ T                              TIMESTAMP WITH TIME ZONE IN    
+FUNCTION SYS_GUID RETURNS RAW
+FUNCTION SYS_LITERALTODATE RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ NUMERATOR                      VARCHAR2                IN    
+FUNCTION SYS_LITERALTODSINTERVAL RETURNS INTERVAL DAY TO SECOND
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ NUMERATOR                      VARCHAR2                IN    
+ UNITS                          VARCHAR2                IN    
+FUNCTION SYS_LITERALTOTIME RETURNS TIME
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ NUMERATOR                      VARCHAR2                IN    
+FUNCTION SYS_LITERALTOTIMESTAMP RETURNS TIMESTAMP
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ NUMERATOR                      VARCHAR2                IN    
+FUNCTION SYS_LITERALTOTZTIME RETURNS TIME WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ NUMERATOR                      VARCHAR2                IN    
+FUNCTION SYS_LITERALTOTZTIMESTAMP RETURNS TIMESTAMP WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ NUMERATOR                      VARCHAR2                IN    
+FUNCTION SYS_LITERALTOYMINTERVAL RETURNS INTERVAL YEAR TO MONTH
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ NUMERATOR                      VARCHAR2                IN    
+ UNITS                          VARCHAR2                IN    
+FUNCTION TAN RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+FUNCTION TAN RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION TANH RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+FUNCTION TANH RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION TO_ANYLOB RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TO_BINARY_DOUBLE RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          BINARY_DOUBLE           IN    
+FUNCTION TO_BINARY_DOUBLE RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_BINARY_DOUBLE RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_BINARY_FLOAT RETURNS BINARY_FLOAT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          BINARY_FLOAT            IN    
+FUNCTION TO_BINARY_FLOAT RETURNS BINARY_FLOAT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_BINARY_FLOAT RETURNS BINARY_FLOAT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_BLOB RETURNS BLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          RAW                     IN    
+FUNCTION TO_BLOB RETURNS BLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BINARY FILE LOB         IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           DATE                    IN    
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           NUMBER                  IN    
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LABEL                          RAW MLSLABEL            IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           DATE                    IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           NUMBER                  IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIME                    IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIME                    IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIME WITH TIME ZONE     IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIME WITH TIME ZONE     IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIMESTAMP               IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIMESTAMP               IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIMESTAMP WITH TIME ZONE IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIMESTAMP WITH TIME ZONE IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIMESTAMP WITH LOCAL TIME ZONE IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           TIMESTAMP WITH LOCAL TIME ZONE IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           INTERVAL YEAR TO MONTH  IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           INTERVAL YEAR TO MONTH  IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           INTERVAL DAY TO SECOND  IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           INTERVAL DAY TO SECOND  IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BINARY_FLOAT            IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BINARY_DOUBLE           IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BINARY_FLOAT            IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BINARY_DOUBLE           IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BLOB                    IN    
+ CSID                           NUMBER                  IN     DEFAULT
+FUNCTION TO_CHAR RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BINARY FILE LOB         IN    
+ CSID                           NUMBER                  IN     DEFAULT
+FUNCTION TO_CLOB RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TO_CLOB RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CL                             CLOB                    IN    
+FUNCTION TO_CLOB RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BLOB                    IN    
+ CSID                           NUMBER                  IN     DEFAULT
+FUNCTION TO_CLOB RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BINARY FILE LOB         IN    
+ CSID                           NUMBER                  IN     DEFAULT
+FUNCTION TO_DATE RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TO_DATE RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TO_DATE RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           NUMBER                  IN    
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TO_DATE RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_DSINTERVAL RETURNS INTERVAL DAY TO SECOND
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TO_DSINTERVAL RETURNS INTERVAL DAY TO SECOND
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_LABEL RETURNS RAW MLSLABEL
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LABEL                          VARCHAR2                IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_LABEL RETURNS RAW MLSLABEL
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LABEL                          VARCHAR2                IN    
+FUNCTION TO_MULTI_BYTE RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ C                              VARCHAR2                IN    
+FUNCTION TO_NCHAR RETURNS NVARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          NVARCHAR2               IN    
+FUNCTION TO_NCHAR RETURNS NVARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           DATE                    IN    
+ FORMAT                         NVARCHAR2               IN    
+FUNCTION TO_NCHAR RETURNS NVARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           NUMBER                  IN    
+ FORMAT                         NVARCHAR2               IN    
+FUNCTION TO_NCHAR RETURNS NVARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           DATE                    IN    
+ FORMAT                         NVARCHAR2               IN    
+ PARMS                          NVARCHAR2               IN    
+FUNCTION TO_NCHAR RETURNS NVARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           NUMBER                  IN    
+ FORMAT                         NVARCHAR2               IN    
+ PARMS                          NVARCHAR2               IN    
+FUNCTION TO_NCHAR RETURNS NVARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BINARY_FLOAT            IN    
+ FORMAT                         NVARCHAR2               IN    
+FUNCTION TO_NCHAR RETURNS NVARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BINARY_DOUBLE           IN    
+ FORMAT                         NVARCHAR2               IN    
+FUNCTION TO_NCHAR RETURNS NVARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BINARY_FLOAT            IN    
+ FORMAT                         NVARCHAR2               IN    
+ PARMS                          NVARCHAR2               IN    
+FUNCTION TO_NCHAR RETURNS NVARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BINARY_DOUBLE           IN    
+ FORMAT                         NVARCHAR2               IN    
+ PARMS                          NVARCHAR2               IN    
+FUNCTION TO_NCLOB RETURNS NCLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CL                             CLOB                    IN    
+FUNCTION TO_NCLOB RETURNS NCLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TO_NUMBER RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          NUMBER                  IN    
+FUNCTION TO_NUMBER RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TO_NUMBER RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_NUMBER RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_RAW RETURNS RAW
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          BLOB                    IN    
+FUNCTION TO_SINGLE_BYTE RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ C                              VARCHAR2                IN    
+FUNCTION TO_TIME RETURNS TIME
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TO_TIME RETURNS TIME
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_TIME RETURNS TIME
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_TIME RETURNS TIME
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          TIME WITH TIME ZONE     IN    
+FUNCTION TO_TIMESTAMP RETURNS TIMESTAMP
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TO_TIMESTAMP RETURNS TIMESTAMP
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_TIMESTAMP RETURNS TIMESTAMP
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_TIMESTAMP RETURNS TIMESTAMP
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          TIMESTAMP WITH TIME ZONE IN    
+FUNCTION TO_TIMESTAMP RETURNS TIMESTAMP
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          DATE                    IN    
+FUNCTION TO_TIMESTAMP RETURNS TIMESTAMP
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ ARG                            TIMESTAMP WITH LOCAL TIME ZONE IN    
+FUNCTION TO_TIMESTAMP_TZ RETURNS TIMESTAMP WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TO_TIMESTAMP_TZ RETURNS TIMESTAMP WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_TIMESTAMP_TZ RETURNS TIMESTAMP WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_TIMESTAMP_TZ RETURNS TIMESTAMP WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          TIMESTAMP               IN    
+FUNCTION TO_TIMESTAMP_TZ RETURNS TIMESTAMP WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ ARG                            DATE                    IN    
+FUNCTION TO_TIMESTAMP_TZ RETURNS TIMESTAMP WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ ARG                            TIMESTAMP WITH LOCAL TIME ZONE IN    
+FUNCTION TO_TIME_TZ RETURNS TIME WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TO_TIME_TZ RETURNS TIME WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ FORMAT                         VARCHAR2                IN    
+ PARMS                          VARCHAR2                IN    
+FUNCTION TO_TIME_TZ RETURNS TIME WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           VARCHAR2                IN    
+ FORMAT                         VARCHAR2                IN    
+FUNCTION TO_TIME_TZ RETURNS TIME WITH TIME ZONE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          TIME                    IN    
+FUNCTION TO_YMINTERVAL RETURNS INTERVAL YEAR TO MONTH
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TRANSLATE RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ STR1                           VARCHAR2                IN    
+ SRC                            VARCHAR2                IN    
+ DEST                           VARCHAR2                IN    
+FUNCTION TRIM RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ V                              VARCHAR2                IN    
+FUNCTION TRIM RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ V                              CLOB                    IN    
+FUNCTION TRUNC RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ N                              NUMBER                  IN    
+ PLACES                         BINARY_INTEGER          IN     DEFAULT
+FUNCTION TRUNC RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           DATE                    IN    
+FUNCTION TRUNC RETURNS DATE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           DATE                    IN    
+ RIGHT                          VARCHAR2                IN    
+FUNCTION TRUNC RETURNS BINARY_FLOAT
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ F                              BINARY_FLOAT            IN    
+FUNCTION TRUNC RETURNS BINARY_DOUBLE
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ D                              BINARY_DOUBLE           IN    
+FUNCTION TRUNC RETURNS BINARY_INTEGER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ I                              BINARY_INTEGER          IN    
+ PLACES                         BINARY_INTEGER          IN     DEFAULT
+FUNCTION TZ_OFFSET RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ REGION                         VARCHAR2                IN    
+FUNCTION UID RETURNS BINARY_INTEGER
+FUNCTION UNISTR RETURNS NVARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+FUNCTION UPPER RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             VARCHAR2                IN    
+FUNCTION UPPER RETURNS CLOB
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ CH                             CLOB                    IN    
+FUNCTION UROWID  RETURNS ROWID
+FUNCTION USER RETURNS VARCHAR2
+FUNCTION USERENV RETURNS VARCHAR2
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ ENVSTR                         VARCHAR2                IN    
+FUNCTION VALUE RETURNS <ADT_1>
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ ITEM                           <TYPED_TABLE>           IN    
+FUNCTION VSIZE RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ E                              NUMBER                  IN    
+FUNCTION VSIZE RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ E                              DATE                    IN    
+FUNCTION VSIZE RETURNS NUMBER
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ E                              VARCHAR2                IN    
+FUNCTION XOR RETURNS BOOLEAN
+ Argument Name                  Type                    In/Out Default?
+ ------------------------------ ----------------------- ------ --------
+ LEFT                           BOOLEAN                 IN    
+ RIGHT                          BOOLEAN                 IN    
+
+SYSTEM@orclinst > spool off

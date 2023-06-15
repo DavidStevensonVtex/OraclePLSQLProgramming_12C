@@ -1,0 +1,7 @@
+BEGIN
+   DBMS_OUTPUT.put_line (
+      TO_CHAR (123456.78, '999G999D99', 'NLS_NUMERIC_CHARACTERS='',.''')
+   );
+-- 123.456,78
+END;
+/

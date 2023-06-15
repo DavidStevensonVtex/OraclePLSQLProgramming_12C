@@ -1,0 +1,7 @@
+DECLARE
+   b   VARCHAR2 (30);
+BEGIN
+   b := TO_CHAR (123456789.01);
+   DBMS_OUTPUT.put_line (b);
+END;
+/
