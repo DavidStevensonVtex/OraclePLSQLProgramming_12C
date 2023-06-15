@@ -1,0 +1,1 @@
+EXECUTE DBMS_OUTPUT.PUT_LINE('Hey look, Ma!') ;
