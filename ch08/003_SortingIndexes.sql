@@ -1,0 +1,1 @@
+CREATE INDEX last_name_ci ON EMPLOYEES ( NLSSORT(last_name, 'NLS_SORT=BINARY_CI')) ;

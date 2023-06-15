@@ -1,0 +1,6 @@
+DECLARE
+    name VARCHAR2(30) := 'MATT williams' ;
+BEGIN
+    DBMS_OUTPUT.PUT_LINE(INITCAP(name));
+END ;
+/
