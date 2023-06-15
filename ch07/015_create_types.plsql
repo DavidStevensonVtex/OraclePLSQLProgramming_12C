@@ -1,0 +1,6 @@
+BEGIN
+    CREATE TYPE names_t AS TABLE OF VARCHAR(100) ;
+    CREATE TYPE authors_t AS TABLE OF VARCHAR(100) ;
+    CREATE TABLE favorite_authors ( name VARCHAR2(200)) ;
+END ;
+/
