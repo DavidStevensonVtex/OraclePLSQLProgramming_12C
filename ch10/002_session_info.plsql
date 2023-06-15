@@ -1,0 +1,18 @@
+BEGIN
+   DBMS_OUTPUT.PUT_LINE('Session CURRENT_DATE ' || CURRENT_DATE);
+   DBMS_OUTPUT.PUT_LINE('Session CURRENT_TIMESTAMP ' || CURRENT_TIMESTAMP);
+   DBMS_OUTPUT.put_line ('Session Timezone=' || SESSIONTIMEZONE);
+   DBMS_OUTPUT.put_line ('Session Timestamp=' || CURRENT_TIMESTAMP);
+
+   DBMS_OUTPUT.PUT_LINE('DB Server SYSDATE ' || SYSDATE);
+   DBMS_OUTPUT.put_line ('DB Server Timestamp=' || SYSTIMESTAMP);
+   DBMS_OUTPUT.put_line ('DB Timezone=' || DBTIMEZONE);
+
+   EXECUTE IMMEDIATE 'ALTER SESSION SET TIME_ZONE=DBTIMEZONE';
+
+   DBMS_OUTPUT.put_line ('DB Timestamp=' || CURRENT_TIMESTAMP);
+
+   -- Revert session timezone to local setting
+   EXECUTE IMMEDIATE 'ALTER SESSION SET TIME_ZONE=LOCAL';
+END;
+/

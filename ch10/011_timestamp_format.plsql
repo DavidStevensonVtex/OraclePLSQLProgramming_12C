@@ -1,0 +1,7 @@
+DECLARE
+   ts   timestamp WITH TIME ZONE;
+BEGIN
+   ts := TIMESTAMP '2002-02-19 13:52:00.123456789 -5:00';
+   DBMS_OUTPUT.put_line (TO_CHAR (ts, 'YYYY-MM-DD HH:MI:SS.FF6 AM TZH:TZM'));
+END;
+/
