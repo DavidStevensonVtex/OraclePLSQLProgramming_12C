@@ -1,0 +1,1 @@
+EXEC showcol ('employees', 'first_name || ''   '' || TO_CHAR(hire_date, ''MM-DD-YYYY'')', 'hire_date', DATE '1997-01-01', DATE '1997-12-31');

@@ -1,0 +1,1 @@
+EXEC showcol ('employees', 'first_name', 'employee_id = 99999');
