@@ -1,0 +1,23 @@
+DROP TYPE pet_t
+/
+
+CREATE OR REPLACE TYPE pet_t IS OBJECT
+   (tag_no INTEGER
+  , name VARCHAR2 (60)
+  , breed VARCHAR2 (100)
+  , dob DATE
+  , MEMBER FUNCTION age
+       RETURN NUMBER
+   )
+/
+
+CREATE OR REPLACE TYPE BODY pet_t
+IS
+   MEMBER FUNCTION age
+      RETURN NUMBER
+   IS
+   BEGIN
+      RETURN SYSDATE - self.dob;
+   END;
+END;
+/
