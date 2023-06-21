@@ -1,0 +1,2 @@
+DELETE FROM to_table ;
+COMMIT ;
