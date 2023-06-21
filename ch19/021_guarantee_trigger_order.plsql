@@ -1,4 +1,5 @@
 /*-- multiple_trigger_seq.sql */
+-- The phrase FOLLOWS increment_by_one guarantees that increment_by_two will execute after increment_by_one tirgger.
 DROP TABLE incremented_values;
 
 CREATE TABLE incremented_values
