@@ -1,3 +1,5 @@
+-- The WHEN clause can be used only with row-level triggers.
+-- You will get a compilation error (ORA-04077) if you try to use it with statement-level triggers.
 CREATE OR REPLACE TRIGGER check_raise
    AFTER UPDATE OF salary
    ON employees
